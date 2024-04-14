@@ -1,1 +1,5 @@
-spring.application.name=kotlin-kafka
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      auto-offset-reset: earliest
